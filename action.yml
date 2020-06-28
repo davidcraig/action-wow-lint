@@ -1,0 +1,11 @@
+name: 'WoW Lua Lint'
+description: 'Check wow addon lua files for syntax issues'
+inputs:
+  path-to-files:
+    description: 'Path of files to lint'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.path-to-files }}
