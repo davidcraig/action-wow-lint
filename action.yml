@@ -8,4 +8,4 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-    - ${{ inputs.path-to-files }}
+    - luac -p ${{ inputs.path-to-files }}
