@@ -8,4 +8,4 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-    - luac -p ${{ inputs.path-to-files }}
+    - luac -p $GITHUB_WORKSPACE${{ inputs.path-to-files }}
