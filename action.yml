@@ -1,7 +1,8 @@
 name: 'WoW Lua Lint'
 description: 'Check wow addon lua files for syntax issues'
-icon: 'check'
-color: 'green'
+branding:
+  icon: 'check'
+  color: 'green'
 inputs:
   path-to-files:
     description: 'Path of files to lint'
