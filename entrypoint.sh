@@ -2,4 +2,4 @@
 
 # Run luac -p path/to/files
 cd $GITHUB_WORKSPACE
-luac -p @0
+luac -p $@
