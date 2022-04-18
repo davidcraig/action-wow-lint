@@ -22,7 +22,7 @@ jobs:
         with:
           repository: 'ps-wow/action-test-repo'
       - name: wow-lint
-        uses: davidcraig/action-wow-lint@1.0.0
+        uses: davidcraig/action-wow-lint@v1.0.1
         with:
             path-to-files: 'src/test.lua'
 ```
